@@ -1,0 +1,14 @@
+{
+  "name": "trabalhos",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "mocha trabalho-final.js"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
