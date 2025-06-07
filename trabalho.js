@@ -27,11 +27,4 @@ export function buscarDadoAsync() {
   return new Promise((resolve) => setTimeout(() => resolve('Pipoca'), 100));
 }
 
-// Exportações agrupadas no final
-export {
-  geradorDeTagsDeIdentificacao,
-  verificarSePodeSerAdotado,
-  calcularConsumoDeRacao,
-  decidirTipoDeAtividadePorPorte,
-  buscarDadoAsync
-};
+
