@@ -1,3 +1,5 @@
+import eslintPlugin from 'eslint/use-at-your-own-risk';
+
 export default [
   {
     ignores: ['node_modules/**'],
@@ -9,7 +11,7 @@ export default [
       sourceType: 'module',
     },
     plugins: {
-      eslint: require('eslint/use-at-your-own-risk'),
+      eslint: eslintPlugin,
     },
     rules: {
       semi: ['error', 'always'],

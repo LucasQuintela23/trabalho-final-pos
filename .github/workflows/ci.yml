@@ -1,4 +1,4 @@
-name: CI - trabalho final
+name: CI - Node.js Tests e Lint
 
 on:
   push:
@@ -22,8 +22,8 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
-      - name: Rodar lint
-        run: npm run lint
+      - name: Corrigir lint automaticamente
+        run: npm run lint:fix
 
       - name: Rodar testes com cobertura
         run: npm test
