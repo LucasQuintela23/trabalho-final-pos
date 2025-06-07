@@ -4,11 +4,11 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "test": "mocha trabalho-final.js",
     "test": "jest --coverage",
     "lint": "eslint ."
   },
   "devDependencies": {
+    "eslint": "^9.28.0",
     "mocha": "^10.2.0"
   },
   "author": "",
