@@ -26,7 +26,7 @@ jobs:
         run: npm run lint:fix
 
       - name: Rodar testes com cobertura
-        run: npm test
+        run: node --experimental-vm-modules node_modules/.bin/jest --coverage
 
       - name: Salvar cobertura como artefato
         uses: actions/upload-artifact@v4

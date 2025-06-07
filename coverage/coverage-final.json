@@ -1,0 +1,2 @@
+{"/home/quintela/Documentos/pos/trabalho-final-pos/soma.js": {"path":"/home/quintela/Documentos/pos/trabalho-final-pos/soma.js","statementMap":{"0":{"start":{"line":3,"column":2},"end":{"line":3,"column":15}}},"fnMap":{"0":{"name":"soma","decl":{"start":{"line":2,"column":16},"end":{"line":2,"column":20}},"loc":{"start":{"line":2,"column":27},"end":{"line":4,"column":1}},"line":2}},"branchMap":{},"s":{"0":1},"f":{"0":1},"b":{},"inputSourceMap":null,"_coverageSchema":"1a1c01bbd47fc00a2c39e90264f33305004495a9","hash":"71608e7ff639d7e06934ec440c34a3c10d41c3d8"}
+}
