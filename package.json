@@ -4,7 +4,9 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "test": "mocha trabalho-final.js"
+    "test": "mocha trabalho-final.js",
+    "test": "jest --coverage",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "mocha": "^10.2.0"
